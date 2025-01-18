@@ -1,0 +1,602 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family:  "Poppins", serif;
+    color: black;
+    overflow-x: hidden;
+}
+
+header {   
+    background-color: #FFB74D;
+    box-shadow: 3px 3px 10px black;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.wr_center {
+    justify-content: center;
+    border-top: 1px solid #e9a948ad;
+    background-color: #FFB74D;
+}
+
+.logo img {
+    cursor: pointer;
+    transition: ease-in 0.1s;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 17px;
+}
+
+.menu ul li {
+    padding: 0 25px;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition: ease-in 0.1s;
+}
+
+.menu ul li a:hover {
+    transform: scale(1.1);
+}
+
+.active {
+    background-color: #e2a344;
+}
+
+.menu ul li a img {
+    margin-bottom: -16px;
+}
+
+.search_bar {
+    position: relative;
+}
+
+.search_bar input {
+    padding: 5px;
+    width: 270px;
+    border: solid 1px black;
+    border-radius: 3px;
+}
+
+.search_bar img {
+    position: absolute;
+    right: 2px;
+    bottom: 4px;
+    cursor: pointer;
+}
+
+/*
+styling for intro photo
+*/
+
+.photo-first{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.image-first {
+    width: 100%;
+    height: 100%;
+    background-color: #00000085;
+}
+
+.photo-wrapper {
+    width: 100%;
+    height: 400px;
+    color: #f7882f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first{
+    background-image: url(img/jonsnow.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.second{
+    background-image: url(img/banners.webp);
+    background-position: center;
+    background-size: cover;
+    opacity: 0;
+}
+
+.third{
+    background-image: url(img/bg.jpg);
+    background-position: top;
+    background-size: cover;
+    opacity: 0;
+}
+
+.fourth{
+    background-image: url(img/deneris.png);
+    background-position: center;
+    background-size: cover;
+    opacity: 0;
+}
+
+.content {
+    text-align: left;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: #FFB74D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor:default;
+    user-select: none;
+}
+
+.second > .content {
+    top: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.third > .content {
+    top: -10px;
+    left: 290px;
+}
+
+.third > .content h2 {
+    margin-bottom: 100px;
+}
+
+.fourth > .content {
+    top: 0;
+    left: 70%;
+}
+
+.fourth > .content h2 {
+    margin-bottom: 70px;
+}
+
+.content h2 {
+    font-size: 35px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    margin: 50px;
+}
+
+.content button {
+    border: none;
+    background-color: #FFB74D;
+    color: #000000;
+    font-size: 20px;
+    padding: 14px 60px;
+    cursor: pointer;
+    margin-bottom: 140px;
+}
+
+.content button:hover {
+    background-color: #ca6602;
+}
+
+/*
+main content on home page
+*/
+
+.main_wrapper {
+    padding: 40px 30px;
+    text-transform: uppercase;
+    background-color: #FFB74D;
+    padding-bottom: 160px;
+}
+
+
+
+.quizzes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#popular,
+#tvshow,
+#movies,
+#sport,
+#games {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory ;
+    scroll-behavior: smooth;
+}
+
+#popular::-webkit-scrollbar,
+#tvshow::-webkit-scrollbar,
+#movies::-webkit-scrollbar,
+#sport::-webkit-scrollbar,
+#games::-webkit-scrollbar {
+    display: none;
+}
+
+.quiz{
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 0 9px;
+    transition: ease-in 0.1s;
+    scroll-snap-align: start;
+    user-select: none;
+    position: relative;
+}
+
+.quiz span {
+    position: absolute;
+    top: 2px;
+    right: 14px;
+    color: white;
+    background-color: #e67300;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 0 0 4px 4px;
+}
+
+.level {
+    position: absolute;
+    left: 14px;
+    top: 0;
+    width:fit-content;
+}
+
+.quiz img {
+    width: 301px;
+    height: 173px;
+    border-radius: 4px;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+.quiz a {
+    text-decoration: none;
+    color:#272727;
+    position: relative;
+}
+
+.quiz:hover {
+    transform: scale(1.03);
+}
+
+.quiz_text {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #000000b6;
+    font-weight: bold;
+    text-align: center;
+    color:#fff;
+}
+
+hr {
+    border: 1px dashed black;
+}
+
+.main_wrapper{
+    max-width: 100%;
+}
+
+/*
+styles for arrows
+*/
+
+.left,
+.right {
+    transform: scale(5,4);
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    user-select: none;
+    color: #fff;
+}
+
+.right{
+    right: 25px;
+}
+
+.left:hover,
+.right:hover {
+    transform: scale(5.1,4.1);
+}
+
+/*
+styles for footer
+
+*/
+
+footer {
+    width: 100%;
+    background-color: #e67300;
+    padding: 40px 0;
+}
+
+.footer-wrap ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer-wrap ul li {
+    padding: 20px 20px;
+    border-right: 1px solid #272727;
+}
+
+.footer-wrap ul li a{
+    text-decoration: none;
+    color: #272727;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer-wrap ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-wrap ul li:last-child{
+    border: none;
+}
+
+.footer-wrap span {
+    color: #272727;
+    font-weight: 600;
+    float: right;
+    padding: 0 5px;
+}
+
+/*
+ responsive design
+*/
+
+
+.responsive-menu-icon {
+    display: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.responsive-menu-icon:hover {
+    transform: scale(1.1);
+}
+.menu-header {
+    background-color: #eb7d22;
+    display: flex;
+    padding: 10px;
+    border-bottom: 2px solid #e67300;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.menu-content li{
+    border-bottom: 1px solid #ca6602;
+    padding: 20px 30px;
+}
+
+.menu-content img {
+    padding: 0 15px;
+}
+
+.menu-content ul a {
+    color: black;
+    text-decoration: none;
+}
+
+.close-menu {
+    cursor: pointer;
+    font-weight: 400;
+    margin: 20px;
+    transform: scale(2.5, 1.9);
+}
+
+
+.responsive-menu{
+    display: none;
+}
+
+.menu-container {
+    overflow-y: hidden;
+    position: fixed;
+    width: 0;
+    margin-right: -400px;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: #f7882f;
+    z-index: 20;
+    transition: 0.6s ease-in-out;
+}
+
+.open {
+    margin-right: 0;
+    width: 100%;
+}
+
+/*
+ responsive design
+*/
+
+@media screen and (max-width: 800px) {
+    /*
+    header 
+    */
+
+    .responsive-menu {
+        display: flex;
+    }
+
+    
+
+    .wr_center{
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        bottom: 0;
+        z-index: 12;
+        background-color: #FFB74D;
+        border-top: 2px solid #8f5318;;
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: space-evenly;
+    }
+
+    .active{
+        background-color: #8f5318;
+    }
+
+    .wr_center ul {
+        width: 100%;
+        display: flex;
+        padding: 0px;
+        padding: 0 5px;
+    }
+
+    .wr_center ul li {
+        width: 20px;
+    }
+
+
+    .wr_center ul li a{
+        font-size: 13px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .responsive-menu-icon{
+        display: block;
+        padding-left: 20px;
+        margin-right: -20px;
+    }
+
+    .search_bar:hover{
+        transform: scale(1.05);
+    }
+
+    .search_bar{
+        margin-right: -12px;
+        margin-bottom: -8px;
+        transition: 0.2s;
+    }
+
+    .search_bar input{
+        display: none;
+    }
+
+    .search_bar img {
+        position: relative;
+        width: 22px;
+    }
+
+    .logo {
+        flex-grow: 1;
+    }
+
+    .menu-content button a {
+        color: black;
+        text-decoration: none;
+        width: 300px;
+        height: 300px;
+    }
+
+    #sport {
+        display: none;
+    }
+
+    /*
+    intro photo
+    */
+
+    .photo-wrapper > .content  {
+        text-align: center;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+    
+
+    /*
+    list of quizzes
+    */
+
+    
+
+    footer {
+        display: none;
+    }
+
+    .quiz img{
+        width: 40vw;
+    }
+
+    .quiz_text{
+        font-size: 2.7vw;
+    }
+
+    .quiz span {
+        font-size: 2.7vw;
+        
+    }
+}
+
+@media screen and (max-width: 450px){
+    .quiz img{
+        width: 40vw;
+        height: 29vw;
+    }
+
+    .quiz_text{
+        font-size: 2.7vw;
+    }
+
+    .quiz span {
+        font-size: 2.7vw;
+        
+    }
+
+    .photo-wrapper > .content  {
+        text-align: center;
+        top: 0;
+        left: 0;
+    }
+
+    .content h2 {
+        font-size: 8vw;
+    }
+
+    .menu ul #sport {
+        display: none;
+    }
+}
