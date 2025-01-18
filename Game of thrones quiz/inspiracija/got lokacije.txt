@@ -1,0 +1,79 @@
+Question: What game company produced an official video game version of 'Game of Thrones'?
+
+Answer: Telltale
+
+Question: Where was Robb Stark born?
+
+Answer: Riverrun
+
+Question: Sunspear is the stronghold of what House?
+
+Answer: Martell
+
+Question: Strong Belwas was trained in what city?
+
+Answer: Meereen
+
+Question: Illyrio Mopatisis lives in what city?
+
+Answer: Pentos
+
+Question: Braavos was founded just to hide what family?
+
+Answer: Valyrian
+
+Question: The Dothraki live in what land?
+
+Answer: Essos
+
+Question: What is the oldest city in Westeros?
+
+Answer: Oldtown
+
+Question: What city do people in Westeros call R'hllor 'the Red God'?
+
+Answer: Westeros
+
+Question: The House Florent is the main rival of what House?
+
+Answer: Tyrell
+
+Question: Illyrio Mopatisis' title is what?
+
+Answer: Magister
+
+Question: The House Lannister is the leading House of what location?
+
+Answer: Westeros
+
+Question: The Marsh King rules what area?
+
+Answer: The Neck
+
+Question: The House Targaryen originally came from what land?
+
+Answer: Essos
+
+Question: The pirate Sallador Saan is from what free city?
+
+Answer: Lys
+
+Question: Thoros is a red priest from what city?
+
+Answer: Myr
+
+Question: What area is also known as The Shadow Lands?
+
+Answer: Asshai
+
+Question: Where did Tyrion Lannister join the Second Sons?
+
+Answer: Essos
+
+Question: Where will you find the House of the Undying?
+
+Answer: Qarth
+
+Question: Where did Jon Connington flee to after failing to defeat Robert in a rebellion?
+
+Answer: Essos

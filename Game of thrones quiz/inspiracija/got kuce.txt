@@ -1,0 +1,59 @@
+Question: What House has the motto 'Fire and Blood'?
+
+Answer: Targaryen
+
+Question: What House rules the Kingdom of the Stormlands?
+
+Answer: House Baratheon
+
+Question: What House rules the Kingdom of the Rock?
+
+Answer: Lannister
+
+Question: What House's sigil has a crowned black stag on a golden field?
+
+Answer: Baratheon
+
+Question: What House has the motto 'Hear Me Roar'?
+
+Answer: Lannister
+
+Question: What House's sigil has a crowned black stag on a golden field?
+
+Answer: Baratheon
+
+Question: What House rules Storm's End?
+
+Answer: Baratheon
+
+Question: What House is the main rival of House Lannister?
+
+Answer: The Dreadfort
+
+Question: What House calls the castle Harrenhal home?
+
+Answer: House Bolton
+
+Question: What House rules the Kingdom of the Isles and Rivers?
+
+Answer: Hoare
+
+Question: What House rules the Kingdom of the Reach?
+
+Answer: Gardener
+
+Question: What House's sigil has a gold kraken?
+
+Answer: Greyjoy
+
+Question: What House rules Dorne?
+
+Answer: Martell
+
+Question: What House's sigil features a three-headed dragon?
+
+Answer: Targaryen
+
+Question: What House rules The Riverlands?
+
+Answer: Tully
