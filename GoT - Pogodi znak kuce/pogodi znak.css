@@ -1,0 +1,14 @@
+@media screen and (max-width: 800px){
+    .main-wrapper {
+        width: 80%;
+    }
+
+    .quiz-intro h2 {
+        font-size: 19px;
+    }
+
+    .quiz-intro-img img {
+        width: 100%;
+    }
+
+}
